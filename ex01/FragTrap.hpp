@@ -6,7 +6,7 @@
 /*   By: migferna <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/09 18:50:28 by migferna          #+#    #+#             */
-/*   Updated: 2021/05/15 21:43:01 by migferna         ###   ########.fr       */
+/*   Updated: 2021/05/16 17:25:21 by migferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ public:
 	FragTrap( void );
 	FragTrap( FragTrap const & orig);
 	FragTrap( std::string const & name );
-	~FragTrap( void );
+	virtual ~FragTrap( void );
 	FragTrap &operator=( const FragTrap & orig );
 	void rangedAttack( std::string const & target );
 	void meleeAttack( std::string const & target );

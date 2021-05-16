@@ -6,7 +6,7 @@
 /*   By: migferna <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/09 18:50:28 by migferna          #+#    #+#             */
-/*   Updated: 2021/05/15 21:49:41 by migferna         ###   ########.fr       */
+/*   Updated: 2021/05/16 17:25:34 by migferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ public:
 	ScavTrap( void );
 	ScavTrap( ScavTrap const & orig);
 	ScavTrap( std::string const & name );
-	~ScavTrap( void );
+	virtual ~ScavTrap( void );
 	ScavTrap &operator=( const ScavTrap & orig );
 	void rangedAttack( std::string const & target );
 	void meleeAttack( std::string const & target );

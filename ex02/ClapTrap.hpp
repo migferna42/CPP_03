@@ -6,7 +6,7 @@
 /*   By: migferna <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/09 18:50:28 by migferna          #+#    #+#             */
-/*   Updated: 2021/05/16 10:28:36 by migferna         ###   ########.fr       */
+/*   Updated: 2021/05/16 17:26:03 by migferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ public:
 				unsigned int melee_attack_damage,
 				unsigned int ranged_attack_damage,
 				unsigned int armor_damage_reduction );
-	~ClapTrap( void );
+	virtual ~ClapTrap( void );
 	ClapTrap &operator=( const ClapTrap & orig );
 	void rangedAttack( std::string const & target );
 	void meleeAttack( std::string const & target );
